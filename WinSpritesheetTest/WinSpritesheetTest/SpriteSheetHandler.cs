@@ -68,7 +68,7 @@ namespace WinSpritesheetTest
             }
         public void commitmergeissuetest()
         {
-            Environment.Exit(1);
+            Environment.Exit(2);
             
 
 
