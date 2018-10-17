@@ -13,6 +13,7 @@ namespace WinSpritesheetTest
 
         //w: 32px h: 65px
         int change;
+        int anotherChange;
       static  Bitmap sheet;
        static int fWidth, fHeight;
       static  int framesPerRow, framesPerCol;
@@ -30,6 +31,7 @@ namespace WinSpritesheetTest
             framesPerRow = sheet.Width / fWidth;
             framesPerCol = sheet.Height / fHeight;
             curState = new Bitmap(path);
+            anotherChange = 1;
         }
 
         public void InitialiseSprite(int frameSpeed, int startingFrame, int currentEndFrame, int curRow)
