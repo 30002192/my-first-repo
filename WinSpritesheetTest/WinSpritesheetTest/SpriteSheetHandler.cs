@@ -63,7 +63,6 @@ namespace WinSpritesheetTest
             else
             {
                 nextFrame = startF;
-                commitmergeissuetest();
             }
             }
         
