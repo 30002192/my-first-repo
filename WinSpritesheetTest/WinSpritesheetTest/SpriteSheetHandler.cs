@@ -12,7 +12,7 @@ namespace WinSpritesheetTest
     {
 
         //w: 32px h: 65px
-    
+        int change;
       static  Bitmap sheet;
        static int fWidth, fHeight;
       static  int framesPerRow, framesPerCol;
