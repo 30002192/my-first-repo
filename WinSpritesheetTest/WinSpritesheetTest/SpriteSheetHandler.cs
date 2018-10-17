@@ -63,7 +63,15 @@ namespace WinSpritesheetTest
             else
             {
                 nextFrame = startF;
+                commitmergeissuetest();
             }
             }
+        public void commitmergeissuetest()
+        {
+            Environment.Exit(1);
+
+
+
+        }
         }
     }
